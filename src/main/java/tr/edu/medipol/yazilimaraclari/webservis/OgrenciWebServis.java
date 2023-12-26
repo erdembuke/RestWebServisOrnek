@@ -11,16 +11,22 @@ import java.util.List;
 @RequestMapping("/ogrenci")
 public class OgrenciWebServis {
 
-    private static final List<String> OGRENCI_LISTESI = new ArrayList<>();
+    // Record kendi icinde consturctor getter setter gibi cogu seyi olusturur
+    public record Ogrenci(String adSoyad, String numara) { }
+
+
+    private static final List<Ogrenci> OGRENCI_LISTESI = new ArrayList<>();
+
     static {
-        OGRENCI_LISTESI.add("Erdem Buke");
-        OGRENCI_LISTESI.add("Enes Buke");
-        OGRENCI_LISTESI.add("Seyma Dalar");
-        OGRENCI_LISTESI.add("Emrah Guney");
+        // Nesne olusturdugumuz icin otomatik json yapisina ceviriyor Spring Boot.
+        OGRENCI_LISTESI.add(new Ogrenci("Erdem Buke", "1"));
+        OGRENCI_LISTESI.add(new Ogrenci("Enes Buke", "2"));
+        OGRENCI_LISTESI.add(new Ogrenci("Seyma Dalar", "3"));
+        OGRENCI_LISTESI.add(new Ogrenci("Emrah Guney", "4"));
     }
 
     @GetMapping("/") // localhost:8081/ogrenci/
-    public List<String> listele() {
+    public List<Ogrenci> listele() {
         return OGRENCI_LISTESI;
     }
 
