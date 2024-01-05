@@ -38,7 +38,7 @@ This project contains a Spring Boot web service developed using ![Java Logo](htt
 
 ## Running the Project
 
-1. Download the project files to your computer. ![Download Icon](https://img.icons8.com/color/48/000000/download.png)
+1. Download the project files to your computer. ![Download Icon](https://img.icons8.com/ios/20/000000/download--v1.png)
 2. ![Intellij IDEA Ultimate Logo](https://img.icons8.com/color/20/000000/intellij-idea.png) **Open Intellij IDEA Ultimate.**
 3. Open the project file.
 4. Run the application and test the API by going to `http://localhost:8081`.
