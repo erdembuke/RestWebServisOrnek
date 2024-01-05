@@ -1,6 +1,6 @@
 # School Java Spring Boot Student Web Service
 
-This project contains a ![Spring Boot Logo](https://img.icons8.com/color/20/000000/spring-logo.png) Spring Boot web service developed using ![Java Logo](https://img.icons8.com/color/48/000000/spring-logo.png) Java 17 with Intellij IDEA Ultimate. The project is designed to manage student information and includes 4 methods within a web service class.
+This project contains a Spring Boot web service developed using ![Java Logo](https://img.icons8.com/color/48/000000/spring-logo.png) Java 17 with Intellij IDEA Ultimate. The project is designed to manage student information and includes 4 methods within a web service class.
 
 ## Project Details
 
