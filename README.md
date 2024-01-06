@@ -6,7 +6,7 @@ This project contains a Spring Boot web service developed using ![Java Logo](htt
 
 - **Language Used:** ![Java Logo](https://img.icons8.com/color/20/000000/java-coffee-cup-logo.png) Java
 - **IDE Used:** ![IntelliJ IDEA Ultimate Logo](https://img.icons8.com/color/20/000000/intellij-idea.png) Intellij IDEA Ultimate
-- **Spring Boot Version:** ![Spring Boot Logo](https://img.icons8.com/color/20/000000/spring-logo.png) Latest
+- **Spring Boot Version:** ![Spring Boot Logo](https://img.icons8.com/color/20/000000/spring-logo.png) 3.2.1
 - **Java Version:** 17
 - **Port:** 8081
 
