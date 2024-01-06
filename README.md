@@ -14,25 +14,25 @@ This project contains a Spring Boot web service developed using ![Java Logo](htt
 
 ### 1. Get - Retrieve All Students
 
-- **Endpoint:** `/students`
+- **Endpoint:** `/`
 - **HTTP Method:** GET
 - **Description:** Retrieves all student records.
 
 ### 2. GetByNumber - Retrieve Student by Number
 
-- **Endpoint:** `/student/{number}`
+- **Endpoint:** `/{number}`
 - **HTTP Method:** GET
 - **Description:** Retrieves the student with the specified number.
 
 ### 3. Create Student
 
-- **Endpoint:** `/student`
+- **Endpoint:** `/`
 - **HTTP Method:** POST
 - **Description:** Creates a new student record.
 
-### 4. Delete Student by ID
+### 4. Delete Student by Number
 
-- **Endpoint:** `/student/{id}`
+- **Endpoint:** `/{id}`
 - **HTTP Method:** DELETE
 - **Description:** Deletes the student with the specified ID.
 
